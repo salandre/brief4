@@ -11,9 +11,12 @@
     }
 
     .shopping-cart {
-        width:32px;
-        position: absolute;
-        top: 40px; 
-        right: 40px;
+        max-width:32px;
+        width:100%;
+        max-height:32px;
+        height:100%;
+        position:relative;
+        top: 3vw; 
+        right: 5vw;
     }
 }
