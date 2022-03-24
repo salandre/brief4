@@ -1,0 +1,19 @@
+
+.banniere {
+    width:100%;
+    display:flex;
+    background-color: #efefef;
+
+    .fond {
+        max-width:1200px;
+        width:100%;
+        margin:0 auto;
+    }
+
+    .shopping-cart {
+        width:32px;
+        position: absolute;
+        top: 40px; 
+        right: 40px;
+    }
+}
