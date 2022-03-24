@@ -1,0 +1,11 @@
+.arrow_up {
+    color:black;
+    position: fixed;
+    right:20px;
+    bottom: 20px;
+    cursor: pointer;
+
+    &:visited {
+        color:black;
+    }
+}
