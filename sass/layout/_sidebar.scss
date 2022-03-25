@@ -11,26 +11,25 @@
     left: 0;
     bottom: 0;
 
-    .sidebar {
+    .sidebartop {
         display: flex;
         flex-direction: column;
-        height: 50%;
+        height: 40%;
         width: 100%;
         ul {
             margin: 0;
             padding: 0;
+            text-decoration: none;
         }
         li {
             list-style-type: none;
             margin: 0;
             margin-left: 6.5vw;
             padding: 0;
-            text-transform: capitalize;
-            text-decoration: none;
             color: rgba(9, 0, 43, 0.89);
             font-size: 2vw;
-            text-overflow: none;
             text-align: left;
+            text-decoration: none;
         }
         h1 {
             margin: auto;
@@ -47,18 +46,22 @@
     .sidebarbot {
         display: flex;
         flex-direction: column;
-        margin-bottom: 25%;
-        width: 100%;;
-        .map-responsive iframe {
-            position: relative;
-        }
-        .social i{
-            text-align: center;
-            margin-left: 15px;
-            margin-top: 25px;
-            
-            font-size: 6vw;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 25vw;
+        max-height: 25vh;
+        
+        .social i {
+            font-size: 5vw;
+            margin-top: auto;
+            max-width: auto;
+            max-height: auto;
+            color:rgba(9,0,43,0.89);
             
         }
     }
+}
+.sidebarmap {
+    max-zoom: 100%;
+
 }
