@@ -1,5 +1,28 @@
 footer {
     width:100%;
-    height: 15vw;
-    background-color: darkgray;
+    /*height: 15vw;*/
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0 25px 0;
+
+    ul {
+        margin:0;     
+        padding:0;  
+
+        li {
+            list-style: none;
+            padding: 5px 0;
+            margin:0;
+        }
+    }
+
+    a {
+        text-decoration: none;
+        color:$color-fond-clair;
+
+        &:hover {
+            font-weight: bold;
+        }
+    }
 }
