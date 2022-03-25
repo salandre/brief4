@@ -19,51 +19,70 @@
   <link rel="stylesheet" href="css/main.css">
 
   <meta name="theme-color" content="#fafafa">
+  <script src="https://kit.fontawesome.com/30705cebc4.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-    <h3>Créez votre costume sur-mesure</h3>
-    <h3>à partir de 990€</h3>
+  <div class="central">
 
-  <p>
-    1
-    On vous écoute
-    Parlez-nous de votre personnalité    
-  </p>
-  <p>
-    2
-    On vous conseille
-    Choisissons le tissu et les personnalisations qui feront de votre costume une pièce unique    
-  </p>
-  <p>
-    3
-    On prend vos mesures
-    Une prise de mesure au corps et une analyse morphologique pour un tombé parfait.        
-  </p>
-  <p>
-    4
-    On fabrique !
-    Nous fabriquons l'ensemble des pièces en deux à trois mois.  
-  </p>
+    <header class="banniere">
+      <img src="img/ducsman.webp" alt="Ducsman, sapés comme jamais" class="fond">
+      <i class="fa-solid fa-basket-shopping fa-2xl"></i>
+    </header>
 
 
-  <form action="#" methop="POST">
-    <label for="nom">
-      <input type="text" id="nom" name="nom" placeholder="Nom *">
-    </label>
-    <label for="email">
-      <input type="email" id="email" name="email" placeholder="Email *">
-    </label>
-    <label for="telephone">
-      <input type="text" id="telephone" name="telephone" placeholder="Téléphone">
-    </label>
-    <label for="sujet">
-      <input type="text" id="sujet" name="sujet" placeholder="Sujet">
-    </label>
-    <textarea name="message" id="message" name="message" cols="30" rows="10" placeholder="Message"></textarea>
-    <button type="submit">J'envoie</button>
-  </form>
+    <div class="contact">
+
+      <h2>Créez votre costume sur-mesure</h2>
+      <h2>à partir de 990€</h2>
+
+      <div class="steps">
+        <div class="step">
+          <h2>1</h2>
+          <h3>On vous écoute</h3>          
+          Parlez-nous de votre personnalité
+        </div>
+        <div class="step">
+          <h2>2</h2>
+          <h3>On vous conseille</h3>          
+          Choisissons le tissu et les personnalisations qui feront de votre costume une pièce unique
+        </div>
+        <div class="step">
+          <h2>3</h2>
+          <h3>On prend vos mesures</h3>          
+          Une prise de mesure au corps et une analyse morphologique pour un tombé parfait.
+        </div>
+        <div class="step">
+          <h2>4</h2>
+          <h3>On fabrique !</h3>          
+          Nous fabriquons l'ensemble des pièces en deux à trois mois.
+        </div>
+      </div>
+
+      <form action="#" method="POST">
+        <label for="nom">
+          <input type="text" id="nom" name="nom" placeholder="Nom *" tabindex="1">
+        </label>
+        <label for="email">
+          <input type="email" id="email" name="email" placeholder="Email *" tabindex="2">
+        </label>
+        <label for="telephone">
+          <input type="text" id="telephone" name="telephone" placeholder="Téléphone" tabindex="3">
+        </label>
+        <label for="sujet">
+          <input type="text" id="sujet" name="sujet" placeholder="Sujet" tabindex="4">
+        </label>
+        <textarea id="message" name="message" cols="30" rows="6" placeholder="Message" tabindex="5"></textarea>
+        <button type="submit" tabindex="6">J'envoie</button>
+      </form>
+
+    </div>
+
+
+    <footer></footer>
+
+  </div>
 
 </body>
 

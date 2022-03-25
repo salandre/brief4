@@ -1,0 +1,27 @@
+.contact {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:25px;
+
+    h2 {
+        margin:5px;
+    }
+
+    .steps {
+        display: flex;
+        justify-content: space-around;
+        margin: 20px 0;
+
+        .step {
+            max-width:13vW;
+            width:100%;
+            margin:10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+    }
+}
