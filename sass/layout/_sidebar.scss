@@ -1,6 +1,7 @@
 .wrapper {
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(104, 104, 104, 0.5);
     display: flex;
+
     height: 100vw;
     width: 25vw;
     position: fixed;
@@ -16,27 +17,33 @@
     li {
         list-style-type: none;
         margin: 0;
+        margin-left: 6.5vw;
         padding: 0;
         text-transform: capitalize;
-        color: aliceblue;
+        color: rgba(9, 0, 43, 0.89);
         font-size: 2vw;
+        text-overflow: none;
+        text-align: left;
     }
     h1 {
+        margin-left: 6.5vw;
         font-size: 3vw;
         margin: 0;
         padding: 0;
-        color: aliceblue;
+        margin-top: 3vh;
+        color: rgba(9, 0, 43, 0.89);
+        text-align: center;
     }
 
     iframe {
-        width:20vw;
+        width: 20vw;
     }
 
     .social {
-        color:white;
-        
+        color: white;
+
         i {
-            width:100px;
+            width: 100px;
         }
     }
 }
