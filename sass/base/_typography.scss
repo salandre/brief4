@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amiri:ital@1&family=Italianno&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amiri:ital@1&family=Italianno&family=Maitree:wght@200;300&display=swap');
-
 * {
     font-family: 'Maitree', serif;
-    color:$color-fond-clair;
 }
 
 h1 {
     font-family: 'Italianno', cursive;
 }
 
-h2, h3, h4, h5, h6 {
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Amiri', serif;
 }
