@@ -1,22 +1,23 @@
 
 .articles {
     display:grid;
-    max-width:1200px;
+    //max-width:1200px;
     width:100%;
     margin:20px auto;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 25px;
+    justify-content: space-around;
 
     article {
-        margin-top:-50px;
-        margin-bottom:-50px;
+
+        position:relative;
+        // margin-top:-50px;
+        // margin-bottom:-50px;
         
         .price {
             width:100%;
             text-align: right;
-            position:relative;
-            top:50px;
-            right: 25px;
+            position:absolute;
+            right:15px;
             font-family: 'Amiri', serif;
             font-weight: bold;
             font-size: 1vw;
@@ -29,8 +30,8 @@
 
         .hashtags {
             width:100%;
-            position:relative;
-            top:-60px;
+            position:absolute;
+            bottom:0;
 
             span {
                 background-color: white;
