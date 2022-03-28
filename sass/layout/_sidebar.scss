@@ -81,3 +81,13 @@
 .sidebarmap {
     max-zoom: 100%;
 }
+
+@media screen and (max-width: 800px) {
+    .wrapper {
+        left: -22vw;
+    }
+
+    iframe {
+        visibility:hidden;        
+    }
+}

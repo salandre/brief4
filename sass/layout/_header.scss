@@ -12,15 +12,37 @@
         object-position: 0 30%;
     }
 
-    .fa-briefcase {
+    .fa-briefcase, .fa-bars {
         position:absolute;
         top: 0; 
-        right: 0;
-        cursor: pointer;
-        color:$color-fond-fonce;  
+        cursor: pointer;  
+        color:$color-fond-fonce;   
         font-size:1.6vw;
-        height:1.6vw;     
-        transform: translate(-300%, 300%); 
+        height:1.6vw;             
+    }    
+
+    .fa-briefcase {
+        right: 0;
+        cursor: pointer;    
+        transform: translate(-150%, 150%); 
     }
 
+    .fa-bars { 
+        left: 0;  
+        transform: translate(1vw, 2vw); 
+        visibility:hidden;
+        cursor: pointer;
+    }
+
+    @media screen and (max-width: 800px) {
+        .fa-bars { 
+            visibility:visible;
+        }
+    }
+
+    @media screen and (min-width: 800px) {
+        .fa-bars { 
+            visibility:hidden;
+        }
+    }
 }
