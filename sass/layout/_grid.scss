@@ -4,45 +4,51 @@
     //max-width:1200px;
     width:100%;
     margin:20px auto;
+    //padding:0 15px;
     grid-template-columns: 1fr 1fr 1fr;
-    justify-content: space-around;
+    padding:40px;
 
     article {
-
         position:relative;
-        // margin-top:-50px;
-        // margin-bottom:-50px;
+        margin:15px;
+        //padding:25px;
         
         .price {
             width:100%;
-            text-align: right;
-            position:absolute;
-            right:15px;
+            //text-align: right;
+            //position:absolute;
+            //right:30px;
             font-family: 'Amiri', serif;
             font-weight: bold;
             font-size: 1vw;
         }
 
         img {
-            max-width:380px;
+            max-width:320px;
             width:100%;
+            object-fit: cover;
         }
 
         .hashtags {
             width:100%;
             position:absolute;
-            bottom:0;
+            bottom:110px;
 
             span {
                 background-color: white;
                 color:$color-fond-clair;
                 border-radius:5px;
                 margin-left:10px;
-                padding: 3px 8px;
+                padding: 2px 6px;
                 font-family: 'Maitree', serif;
                 font-weight: bold;
-                font-size: 1.1vw;                
+                font-size: 0.8vw;                
             }
+        }
+
+        .tailor {
+            font-weight: bold;
+            margin:5px 0 -10px 0;
         }
     }
 
