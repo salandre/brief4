@@ -2,62 +2,78 @@
     background-color: $color-sidebar;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    //flex-wrap: wrap;
     height: 100%;
     width: 25vw;
     position: fixed;
     top: 0;
     left: 0;
     color: $color-fond-fonce;
+
     .sidebartop {
         display: flex;
         flex-direction: column;
-        height: 40%;
-        width: 100%;
+        //height: 40%;
+        width: 70%;
+        margin:0 auto;
         color: $color-fond-fonce;
-        ul {
-            margin: 0;
+
+        h1 {
             padding: 0;
-            text-decoration: none;
+            margin:20px 0 0 0;
+            font-size: 5vw;
+            text-overflow: none;
+            text-align: left;
+            font-weight: lighter;
         }
+
+        h2 {
+            margin:0 0 40px 0;
+            padding: 0;
+            font-size: 2vw;
+            font-weight: lighter;
+        }
+
+        ul {
+            padding: 0;
+            margin-bottom: 50px;
+
+            a {
+                text-decoration: none;
+            }
+        }
+
         li {
             list-style-type: none;
-            margin: 0;
-            margin-left: 6.5vw;
             padding: 0;
+            margin-bottom: 15px;
             font-size: 2vw;
             text-align: left;
             text-decoration: none;
             color: $color-fond-fonce;
         }
-        h1 {
-            margin: auto;
-            margin-bottom: 0;
-            padding: 0;
-            font-size: 5vw;
-            margin-top: 3vh;
-            text-overflow: none;
-            text-align: left;
-        }
-        h2 {
-            margin: 0, auto;
-            padding: 0;
-            font-size: 2vw;
-            text-align: center;
-        }
+
     }
+
     .sidebarbot {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        flex-wrap: wrap;
-        .social i {
-            font-size: 5vw;
-            margin-left: 2vw;
-            margin-top: 7vw;
-            max-width: auto;
-            max-height: auto;
+        width: 70%;
+        margin:0 auto;
+
+        .social {
+            margin-top: 20px;
+            max-width:200px;
+            display: flex;
+            justify-content: space-between;
+
+            i {
+                font-size: 2.5vw;
+            }
+
+            a, a:hover {
+                color:$color-fond-fonce;
+            }
         }
     }
 }
