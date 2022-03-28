@@ -84,10 +84,23 @@
 
 @media screen and (max-width: 800px) {
     .wrapper {
-        left: -22vw;
+        height: 60%;
+        width: 100%;
+        position: fixed;
+        top:40%;
+        bottom: 0;
+        left: 0;
+        border-radius:20% 20% 0 0;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+        .sidebartop {   
+            h1, h2 {
+                display:none;
+            }
+        }
     }
 
-    iframe {
-        visibility:hidden;        
-    }
+
 }
