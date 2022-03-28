@@ -1,23 +1,23 @@
 .banniere {
     width:100%;
     display:flex;
-    background-color: #efefef;
+    background-color: #414246;
 
     .fond {
-        max-width:1200px;
+        //max-width:1200px;
         width:100%;
         margin:0 auto;
-        height:20vw;
+        height:15vw;
         object-fit: cover;
         object-position: 0 30%;
     }
 
-    .fa-basket-shopping {
+    .fa-briefcase {
         position:absolute;
         top: 0; 
         right: 0;
         cursor: pointer;
-        color:$color-fond-clair;  
+        color:$color-fond-fonce;  
         font-size:1.6vw;
         height:1.6vw;     
         transform: translate(-300%, 300%); 

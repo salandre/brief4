@@ -1,11 +1,17 @@
 .arrow_up {
-    color:$color-fond-clair;
+    background-color: $color-fond-clair;
+    color:$color-fond-fonce;
     position: fixed;
+    text-align: center;
+    font-size:0.6vw;
+    height:1.6vw; 
+    width:1.6vw;
+    border-radius: 0.8vw;
     right:20px;
     bottom: 20px;
     cursor: pointer;
 
     &:visited {
-    color:$color-fond-clair;
+    color:$color-fond-fonce;
     }
 }
