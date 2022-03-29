@@ -9,70 +9,61 @@
     top: 0;
     left: 0;
     color: $color-fond-fonce;
-
     .sidebartop {
         display: flex;
         flex-direction: column;
         //height: 40%;
         width: 70%;
-        margin:0 auto;
+        margin: 0 auto;
         color: $color-fond-fonce;
-
         h1 {
             padding: 0;
-            margin:20px 0 0 0;
+            margin: 20px 0 0 0;
             font-size: 5vw;
             text-overflow: none;
             text-align: left;
             font-weight: lighter;
         }
-
         h2 {
-            margin:0 0 40px 0;
+            margin: 0 0 40px 0;
             padding: 0;
             font-size: 2vw;
             font-weight: lighter;
         }
-
         ul {
             padding: 0;
             margin-bottom: 50px;
-
             a {
                 text-decoration: none;
             }
         }
-
         li {
             list-style-type: none;
             padding: 0;
             margin-bottom: 15px;
+            margin-top: 15px;
             font-size: 2vw;
             text-align: left;
             text-decoration: none;
             color: $color-fond-fonce;
         }
-
     }
-
     .sidebarbot {
         display: flex;
         flex-direction: column;
         width: 70%;
-        margin:0 auto;
-
+        margin: 0 auto;
         .social {
             margin-top: 20px;
-            max-width:200px;
+            max-width: 200px;
             display: flex;
             justify-content: space-between;
-
             i {
                 font-size: 2.5vw;
             }
-
-            a, a:hover {
-                color:$color-fond-fonce;
+            a,
+            a:hover {
+                color: $color-fond-fonce;
             }
         }
     }
@@ -87,20 +78,18 @@
         height: 60%;
         width: 100%;
         position: fixed;
-        top:40%;
+        top: 40%;
         bottom: 0;
         left: 0;
-        border-radius:20% 20% 0 0;
+        border-radius: 20% 20% 0 0;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-
-        .sidebartop {   
-            h1, h2 {
-                display:none;
+        .sidebartop {
+            h1,
+            h2 {
+                display: none;
             }
         }
     }
-
-
 }
