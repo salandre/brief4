@@ -6,3 +6,4 @@ dist
 .cache
 *.css
 *.map
+css/main.css.map

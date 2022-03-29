@@ -53,18 +53,24 @@
             text-decoration: none;
             color: $color-fond-fonce;
         }
-
-    }
+    } 
 
     .sidebarbot {
         display: flex;
         flex-direction: column;
         width: 70%;
         margin:0 auto;
+        height:40%;
+        justify-content: flex-end;
+
+        .map-responsive{
+            width:100%;
+            height:100%;
+        }
 
         .social {
             margin-top: 20px;
-            max-width:200px;
+            //max-width:200px;
             display: flex;
             justify-content: space-between;
 
@@ -77,10 +83,6 @@
             }
         }
     }
-}
-
-.sidebarmap {
-    max-zoom: 100%;
 }
 
 @media screen and (max-width: 800px) {
