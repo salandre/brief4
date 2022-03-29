@@ -4,11 +4,12 @@
     flex-direction: column;
     //flex-wrap: wrap;
     height: 100%;
-    width: 25vw;
+    width: 25%;
     position: fixed;
     top: 0;
     left: 0;
     color: $color-fond-fonce;
+    justify-content: space-between;
 
     .sidebartop {
         display: flex;
