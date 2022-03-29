@@ -1,9 +1,11 @@
 .central {
-    width:74vw;
-    margin-left:25vw;
+    width:75%;
+    margin-left:25%;
+    padding:0;
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 @media screen and (max-width: 800px) {
