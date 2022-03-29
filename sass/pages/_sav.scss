@@ -5,14 +5,23 @@
 
     p {
         margin:25px 0;
-    }
 
-    a {
-        font-size: 1.2em;
-        background-color: rgb(23, 177, 120);
-        padding:10px 20px;
-        text-decoration: none;
-        color:$color-fond-fonce;
-        border-radius: 10px;
+        a {
+            font-size: 1.2em;
+            background-color: rgb(23, 177, 120);
+            padding:10px 20px;
+            text-decoration: none;
+            color:$color-fond-fonce;
+            border-radius: 10px;
+            strong {
+                color:$color-fond-fonce;
+            }            
+        }
+    }
+    
+
+
+    i {
+        color:$color-fond-fonce;       
     }
 }
