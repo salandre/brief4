@@ -97,6 +97,7 @@
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
+        visibility:hidden;
 
         .sidebartop {   
             h1, h2 {
@@ -104,6 +105,10 @@
             }
         }
     }
+}
 
-
+@media screen and (min-width: 800px) {
+    .wrapper {
+        visibility:visible;
+    }
 }

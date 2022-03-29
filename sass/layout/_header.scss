@@ -2,6 +2,22 @@
     width:100%;
     display:flex;
     background-color: #414246;
+    color: $color-fond-fonce;
+    text-align: center;
+
+    h1 {
+        padding: 0;
+        text-overflow: none;
+        font-weight: lighter;
+        font-size: 10vw;
+        margin:0;
+    }
+
+    h2 {
+        padding: 0;
+        margin:0;
+        font-weight: lighter;
+    }
 
     .fond {
         //max-width:1200px;
@@ -33,13 +49,14 @@
     }
 
     @media screen and (max-width: 800px) {
-        .banniere {
+        & {
             object-position: 0;
             margin:0;
+            flex-direction: column;
         }
 
         .fond {
-            visibility:hidden;
+            display:none;
         }
 
         .fa-bars { 
@@ -52,9 +69,13 @@
         }
     }
 
-    // @media screen and (min-width: 800px) {
-    //     .fa-bars { 
-    //         visibility:hidden;
-    //     }
-    // }
+    @media screen and (min-width: 800px) {
+        .fa-bars { 
+            visibility:hidden;
+        }
+
+        h1, h2 {
+            display:none;
+        }
+    }
 }
