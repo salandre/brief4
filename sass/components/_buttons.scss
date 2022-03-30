@@ -15,3 +15,18 @@
         color:$color-fond-fonce;
     }
 }
+
+
+
+.submit {
+    background-color: #1C212E;
+    color: #fff;
+    width: 230px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+
+    .submit:hover {
+        background-color: #404a64;
+    }
+}
