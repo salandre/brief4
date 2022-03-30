@@ -6,43 +6,51 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap:20px;
 
-    article {
+    a {
+        padding: 0;
         position:relative;
-        margin:15px auto;
-        
-        .price {
-            width:100%;
-            font-family: 'Amiri', serif;
-            font-weight: bold;
-            font-size: 1.2rem;
-        }
+        margin:15px auto 0 auto;
+        text-decoration: none; 
+        color: $color-fond-clair;
 
-        img {
-            max-width:320px;
-            width:100%;
-            object-fit: cover;
-        }
+        article {
+            margin: 0;
+            padding: 0;
 
-        .hashtags {
-            width:100%;
-            position:absolute;
-            bottom:110px;
-
-            span {
-                background-color: white;
-                color:$color-fond-clair;
-                border-radius:5px;
-                margin-left:10px;
-                padding: 2px 6px;
-                font-family: 'Maitree', serif;
+            .price {
+                width:100%;
+                font-family: 'Amiri', serif;
                 font-weight: bold;
-                font-size: 0.8rem;                
+                font-size: 1.2rem;
             }
-        }
+    
+            img {
+                max-width:320px;
+                width:100%;
+                object-fit: cover;
+            }
+    
+            .hashtags {
+                width:100%;
+                position:absolute;
+                bottom:110px;
+    
+                span {
+                    background-color: white;
+                    color:$color-fond-clair;
+                    border-radius:5px;
+                    margin-left:10px;
+                    padding: 2px 6px;
+                    font-family: 'Maitree', serif;
+                    font-weight: bold;
+                    font-size: 0.8rem;                
+                }
+            }
 
-        .tailor {
-            font-weight: bold;
-            margin:5px 0 -10px 0;
+            .tailor {
+                font-weight: bold;
+                margin:5px 0 -10px 0;
+            }
         }
     }
 
