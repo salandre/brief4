@@ -51,10 +51,8 @@
         ul {
             padding: 0;
             margin-bottom: 50px;
-            a {
-                text-decoration: none;
-            }
         }
+
         li {
             list-style-type: none;
             padding: 0;
@@ -63,7 +61,11 @@
             font-size: 2vw;
             text-align: left;
             text-decoration: none;
-            color: $color-fond-fonce;
+
+            a {
+                text-decoration: none;
+                color: $color-fond-fonce;
+            }
         }
 
         .map-responsive {
