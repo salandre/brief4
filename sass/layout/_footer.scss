@@ -26,3 +26,14 @@ footer {
         }
     }
 }
+
+
+
+
+
+@media screen and (max-height: 850px) {
+    .footer {
+        display: none;
+    }
+};
+
