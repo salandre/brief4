@@ -1,11 +1,11 @@
 .produit {
-    border: 2px solid #000;
+    /*border: 2px solid #000;*/
     display: flex;
     position: relative;
     /*text-align: center;*/
     align-items: flex-start;
     justify-content: space-between;
-    padding: 50px;
+    padding: 60px;
     margin: 0 auto;
     gap: 50px;
 
@@ -25,4 +25,5 @@
         display: flex;
         justify-content: flex-end;
         gap: 10px;
+        
     }
