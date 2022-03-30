@@ -1,7 +1,7 @@
 .banniere {
     width:100%;
     display:flex;
-    background-color: #414246;
+    background-color: $color-sidebar;
     color: $color-fond-fonce;
     text-align: center;
 
@@ -33,19 +33,21 @@
         top: 0; 
         cursor: pointer;  
         color:$color-fond-fonce;   
-        font-size:2vw;
+        font-size:2rem;
         height:2vw;   
         width:2vw;          
     }    
 
     .fa-briefcase {
-        right: 0;
-        transform: translate(-2vw, 2vw);  
+        //right: 0;
+        //transform: translate(-2.2rem, 2vw);        
+        right:30px;
+        top:40px; 
     }
 
     .fa-bars { 
-        left: 0;
-        transform: translate(27vw, 12vw);  
+        left: 5px;
+        //transform: translate(27vw, 12vw);  
     }
 
     @media screen and (max-width: 800px) {
@@ -61,11 +63,13 @@
 
         .fa-bars { 
             visibility:visible;
-            transform: translate(2vw, 12vw); 
+            //transform: translate(2vw, 12vw);
+            top:55px;
         }
 
         .fa-briefcase {
-            transform: translate(-2vw, 12vw); 
+            //transform: translate(-2vw, 12vw); 
+            top:55px;
         }
     }
 
