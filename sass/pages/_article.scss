@@ -1,0 +1,13 @@
+.produit {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 75%;
+    .contenu-produit-droite {
+        display: flex;
+        justify-content: flex-ends;
+    }
+    img {
+        max-width: 230px;
+    }
+}
