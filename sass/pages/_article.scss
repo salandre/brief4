@@ -1,16 +1,28 @@
 .produit {
+    border: 2px solid #000;
     display: flex;
-    text-align: center;
     position: relative;
-    align-items: flex-end;
-    justify-content: flex-end;
-    
-    margin: auto;
+    /*text-align: center;*/
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 50px;
+    margin: 0 auto;
+    gap: 50px;
 
-    .contenu-produit-droite {
-        position: absolute;
     }
-    .img-produit {
-        
+    /*Apparence du texte*/
+    .resume {
+        width: 400px;
+        color: #303030;
     }
-}
+
+    .tailor, .price {
+        color: #303030;
+        font-weight: 600;
+        font-size: 1.4em;
+    }
+    .boutons {
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+    }
