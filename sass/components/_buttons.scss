@@ -15,3 +15,29 @@
         color:$color-fond-fonce;
     }
 }
+
+
+
+.cta {
+    background-color: #1C212E;
+    color: #fff;
+    width: 230px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #404a64;
+        color: #fff;
+    }
+}
+
+.save { /*Petit pouton sur la page produit pour enregistrer les articles*/
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: #E5E5E5;
+    i {
+        color: #1C212E;
+    }
+}
