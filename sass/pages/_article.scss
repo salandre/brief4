@@ -1,14 +1,16 @@
 .produit {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
+    position: relative;
+    align-items: flex-end;
+    justify-content: flex-end;
+    
+    margin: auto;
 
     .contenu-produit-droite {
-        display: flex;
-        flex-direction: ;
+        position: absolute;
     }
-
     .img-produit {
-        max-width: 230px;
+        
     }
 }
