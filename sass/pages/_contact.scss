@@ -39,3 +39,14 @@
         display: grid;
         grid-template-columns: 1fr}
 }
+
+
+.contact-input { /*Pour personnaliser les input*/
+    border: none;
+    border-bottom: #1C212E 1px solid ;
+    margin: 10px 0;
+    &:hover {
+        color: #1C212E;
+        border-bottom: #1C212E 2px solid;
+    }
+}
