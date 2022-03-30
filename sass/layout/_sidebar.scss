@@ -12,6 +12,7 @@
     .close {
         display: none;
         width: 70%;
+        font-size:2rem;
         cursor:pointer;
     }
 
@@ -108,6 +109,14 @@
 
         .sidebartitle {
             display:none;
+        }
+
+        .sidebarcentral ul li {
+            font-size:1.5rem;
+        }
+        
+        .social i {
+            font-size:2rem;
         }
     }
 }
