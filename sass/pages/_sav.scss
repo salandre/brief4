@@ -2,7 +2,7 @@
     padding: 40px;
     display: flex;
     align-content: flex-start ;
-    margin: 60px auto 180px auto;
+    margin: 50px auto 10px auto;
     gap: 100px;
 
     p {
@@ -21,9 +21,12 @@
         }
     }
     
-
-
     i {
         color:$color-fond-fonce;       
+    }
+    
+    @media screen and (max-width: 1000px) {
+        flex-direction: column;
+        gap:20px;
     }
 }
