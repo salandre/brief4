@@ -38,7 +38,11 @@
         height:2vw;   
         width:2vw;   
         
-        transition: ease all 0.5s;       
+        transition: ease all 0.2s;  
+
+        &:hover {
+            filter: drop-shadow(0 0 0.75rem $color-fond-fonce);
+        }
     }    
 
     .fa-briefcase {        

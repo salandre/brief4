@@ -10,6 +10,12 @@
     right:20px;
     bottom: 20px;
     cursor: pointer;
+    
+    transition: ease all 0.2s;  
+            
+    &:hover {
+        filter: drop-shadow(0 0 0.75rem $color-fond-fonce);
+    }
 
     &:visited {
         color:$color-fond-fonce;
