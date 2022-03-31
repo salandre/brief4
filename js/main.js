@@ -16,6 +16,15 @@ document.addEventListener('DOMContentLoaded', () => {
     close.addEventListener('click', () => {
         wrapper.style.visibility = "hidden";
     });
-    
+
+    window.addEventListener('resize', () => {
+        if(window.innerWidth > 800) {
+            wrapper.style.visibility = "visible";
+        }
+        else {
+            wrapper.style.visibility = "hidden";
+        }
+    });
+
 });
 
