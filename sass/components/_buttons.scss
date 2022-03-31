@@ -33,6 +33,7 @@
     height: 50px;
     border: none;
     cursor: pointer;
+    transition: background-color 0.2s; 
 
     &:hover {
         background-color: #404a64;

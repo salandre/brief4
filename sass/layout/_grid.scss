@@ -23,11 +23,12 @@
                 font-weight: bold;
                 font-size: 1.2rem;
             }
-    
+
             img {
                 max-width:320px;
                 width:100%;
                 object-fit: cover;
+                filter: contrast(95%);
             }
     
             .hashtags {
@@ -51,6 +52,10 @@
                 font-weight: bold;
                 margin:5px 0 -10px 0;
             }
+        }
+        
+        &:hover article img {
+            filter: contrast(100%);
         }
     }
 
