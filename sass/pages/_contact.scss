@@ -55,4 +55,8 @@
     display: flex;
     gap: 10px;
     justify-content: flex-end;
+    @media screen and (max-width: 800px) {
+        display: flex;
+        flex-direction: column;
+    }
 }
