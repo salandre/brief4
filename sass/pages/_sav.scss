@@ -15,9 +15,15 @@
             text-decoration: none;
             color:$color-fond-fonce;
             border-radius: 10px;
+            transition: background-color 0.2s;
+
             strong {
                 color:$color-fond-fonce;
-            }            
+            }
+            
+            &:hover {
+                background-color: rgb(24, 201, 136);
+            }
         }
     }
     

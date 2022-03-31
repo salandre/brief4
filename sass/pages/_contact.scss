@@ -10,7 +10,8 @@
     }
 
     .contact-input { /*Pour personnaliser les input*/
-        border: none;
+        box-sizing: border-box;
+        border:none;
         border-bottom: #1C212E 1px solid ;
         margin: 10px 0;
 
