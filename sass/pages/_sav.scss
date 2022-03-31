@@ -1,7 +1,9 @@
 .sav {
-    align-self: flex-start;
-    align-items:center;
-    margin: 25px 0 100px 15px;
+    padding: 40px;
+    display: flex;
+    align-content: flex-start ;
+    margin: 60px auto 180px auto;
+    gap: 100px;
 
     p {
         margin:25px 0;

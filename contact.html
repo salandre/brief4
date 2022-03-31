@@ -39,7 +39,7 @@
       <h2>Créez votre costume sur-mesure</h2>
       <h2>à partir de 990€</h2>
 
-      <div class="steps">
+      <!--<div class="steps">
         <div class="step">
           <h2>1</h2>
           <h3>On vous écoute</h3>          
@@ -60,7 +60,7 @@
           <h3>On fabrique !</h3>          
           Nous fabriquons l'ensemble des pièces en deux à trois mois.
         </div>
-      </div>
+      </div>-->
 
       <form action="#" method="POST">
         <label for="nom">
@@ -68,15 +68,20 @@
         </label>
         <label for="email">
           <input type="email" class="contact-input" id="email" name="email" placeholder="Email *" tabindex="2">
-        </label>
-        <label for="telephone">
-          <input type="text" class="contact-input" id="telephone" name="telephone" placeholder="Téléphone" tabindex="3">
-        </label>
-        <label for="sujet">
-          <input type="text" class="contact-input" id="sujet" name="sujet" placeholder="Sujet" tabindex="4">
-        </label>
-        <textarea id="message" class="contact-input" name="message" cols="30" rows="6" placeholder="Message" tabindex="5"></textarea>
-        <button class="cta" type="submit" tabindex="6">J'envoie</button>
+        <!--<div class="tel-et-sujet">
+          </label>
+          <label for="telephone">
+            <input type="text" class="contact-input" id="telephone" name="telephone" placeholder="Téléphone" tabindex="3">
+          </label>
+          <label for="sujet">
+            <input type="text" class="contact-input" id="sujet" name="sujet" placeholder="Sujet" tabindex="4">
+          </label>
+        </div> Ce passage a été retiré pour être plus proche de la maquette -->
+        <textarea id="message" class="contact-input" name="message" cols="30" rows="6" placeholder="Dites-nous tous !" tabindex="5"></textarea>
+        <div class="boutons-contact">
+          <button class="secondaire" type="submit" tabindex="6">Effacer</button>
+          <button class="cta" type="submit" tabindex="6">Envoyer</button>
+        </div>
       </form>
 
     </div>

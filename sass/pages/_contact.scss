@@ -50,3 +50,9 @@
         border-bottom: #1C212E 2px solid;
     }
 }
+
+.boutons-contact { /*Pour placer les boutons*/
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
