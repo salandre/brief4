@@ -26,6 +26,8 @@
         height:15vw;
         object-fit: cover;
         object-position: 0 30%;
+
+        transition: ease all 0.5s;
     }
 
     .fa-briefcase, .fa-bars {
@@ -35,7 +37,9 @@
         color:$color-fond-fonce;   
         font-size:2rem;
         height:2vw;   
-        width:2vw;          
+        width:2vw;   
+        
+        transition: ease all 0.5s;       
     }    
 
     .fa-briefcase {

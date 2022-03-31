@@ -5,6 +5,8 @@ footer {
     display: flex;
     justify-content: space-around;
     padding: 50px 0 25px 0;
+    
+    
 
     ul {
         margin:0;     
@@ -20,6 +22,7 @@ footer {
     a {
         text-decoration: none;
         color:$color-fond-clair;
+        transition: ease all 1s;
 
         &:hover {
             font-weight: bold;
