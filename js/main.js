@@ -5,7 +5,12 @@ document.addEventListener('DOMContentLoaded', () => {
     close = document.querySelector('.close');
 
     hamburger.addEventListener('click', () => {
-        wrapper.style.visibility = "visible";
+        if(wrapper.style.visibility == "visible") {
+            wrapper.style.visibility = "hidden";
+        }
+        else {
+            wrapper.style.visibility = "visible";
+        }        
     });
 
     close.addEventListener('click', () => {
