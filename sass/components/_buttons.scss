@@ -25,3 +25,17 @@
         color: #1C212E;
     }
 }
+
+.cta { /*Bouton d'appel à l'action sur la page contact et article*/
+    background-color: #1C212E;
+    color: #fff;
+    width: 230px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #404a64;
+        color: #fff;
+    }
+}
