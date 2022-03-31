@@ -1,5 +1,4 @@
 .produit {
-    /*border: 2px solid #000;*/
     display: flex;
     position: relative;
     //text-align: center;
@@ -7,7 +6,6 @@
     justify-content: space-between;
     padding: 60px;
     gap: 50px;
-    border: 1px solid #000;
 
     }
     //Apparence du texte
@@ -34,7 +32,7 @@
            padding: 10px;
            gap: 0;
            img {
-               max-width: 75%;
+               max-width: 80%;
            }
        }
     }
