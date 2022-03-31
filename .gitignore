@@ -5,5 +5,5 @@ node_modules
 dist
 .cache
 *.css
-*.map
+main.css.map
 css/main.css.map

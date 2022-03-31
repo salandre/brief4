@@ -92,6 +92,22 @@
     }
 }
 
+@media screen and (max-width: 1000px) {
+    .wrapper {
+        .sidebartitle {
+            margin-left: 0;
+        }
+
+        .sidebarcentral {
+            margin-left: 0;            
+        }
+
+        .social {
+            margin-left: 0;               
+        }
+    }
+}
+
 @media screen and (max-width: 800px) {
     .wrapper {
         height: 60%;
@@ -117,6 +133,7 @@
         .sidebarcentral {
             flex-direction: row;
             justify-content: space-between;
+            margin: 0 auto;
 
             .map-responsive {
                 margin:0;
@@ -126,7 +143,11 @@
         .sidebarcentral ul li {
             font-size:1.5rem;
         }
-        
+
+        .social {
+            margin: 0 auto;
+        }
+
         .social i {
             font-size:2rem;
         }
