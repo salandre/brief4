@@ -20,7 +20,6 @@
     }
 
     .fond {
-        //max-width:1200px;
         width:100%;
         margin:0 auto;
         height:15vw;
@@ -42,16 +41,13 @@
         transition: ease all 0.5s;       
     }    
 
-    .fa-briefcase {
-        //right: 0;
-        //transform: translate(-2.2rem, 2vw);        
+    .fa-briefcase {        
         right:30px;
         top:40px; 
     }
 
     .fa-bars { 
         left: 5px;
-        //transform: translate(27vw, 12vw);  
     }
 
     @media screen and (max-width: 800px) {
@@ -67,12 +63,10 @@
 
         .fa-bars { 
             visibility:visible;
-            //transform: translate(2vw, 12vw);
             top:55px;
         }
 
-        .fa-briefcase {
-            //transform: translate(-2vw, 12vw); 
+        .fa-briefcase { 
             top:55px;
         }
     }
