@@ -11,4 +11,10 @@
         margin: 0 auto;
         display: flex;
     }
+
+    @media screen and (max-width: 800px) {
+        img {
+            max-width: 100%;
+        }
+    }
 }
