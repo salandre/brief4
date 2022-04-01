@@ -36,3 +36,28 @@ Soutenance
 
 ## Livrables
 - Lien vers le github du projet.
+
+
+# Soutenance
+
+## Ce qui a été réalisé 
+insistez surtout sur ce que vous avez fait en plus
+
+Ajout d’éléments “Click to action”
+Par rapport aux wireframes originales, des propositions ont été faites pour une meilleure expérience utilisateur, par exemple la version mobile du menu
+
+## Difficultés majeures
+Gestion du positionnement en CSS
+Passage de la vision du designer (maquettes) à la technique (positionnements des éléments pour passer du desktop au mobile…)
+Définition des “break points” en responsive
+Intégration du menu hamburger ; nous avons choisi de faire cette fonctionnalité sans regarder ce qui existe (tutos…) pour trouver notre propre implémentation.
+
+## Ce que nous avons aimé dans ce projet.
+Travail sur un projet que se rapproche d’un projet qui pourrait réellement être demandé
+
+## Ce que nous avons appris.
+Positionnement CSS avec position absolu, relative…
+Animations CSS
+Gestion des événements en javascript (addEventListener)
+
+
