@@ -1,39 +1,78 @@
 .produit {
+    //border: #303030 1px solid;
     display: flex;
     position: relative;
-    //text-align: center;
     align-items: flex-start;
     justify-content: space-between;
     padding: 60px;
     gap: 50px;
 
+    .boutons {
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
     }
-    //Apparence du texte
+
+        //Apparence du texte
     .resume {
         width: 400px;
         color: #303030;
     }
-
     .tailor, .price {
         color: #303030;
         font-weight: 600;
         font-size: 1.4em;
     }
-    .boutons {
-        display: flex;
-        justify-content: flex-end;
-        gap: 10px;
-        
-    }
 
-    @media screen and (max-width: 800px) {
-       .produit {
-           flex-direction: column;
-           padding: 10px;
-           gap: 0;
-           img {
-               max-width: 80%;
-               margin: 0 10%;
-           }
+}
+.texte-boutons {
+    display: flex;
+    flex-direction: column;
+}
+
+.titre-sous-titre-mobile {
+    display: none;
+}
+
+
+.sous-titre {
+    color: #7e7e7e;
+}
+
+@media screen and (max-width: 800px) {
+   .produit {
+       flex-direction: column;
+       gap: 0;
+       margin: 0 auto;
+       padding: 0 60px 30px 60px;
+       p {
+           max-width: 317px;
+           margin: 10px 0;
        }
+       img {
+           max-width: 100%;
+           margin: 0 auto;
+       }
+       .titre-sous-titre-desk {
+        display: none;
+        }
+        .titre-sous-titre-mobile {
+            display: block;
+        }
+
+        .texte-boutons {
+            flex-direction: column-reverse;
+            margin-top: 10px;
+        }
+        .boutons {
+            justify-content: space-between;
+            gap: 0;
+        }
+        
+        .sous-titre {
+        color: #7e7e7e;
+        }
     }
+}
+
+
